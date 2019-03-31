@@ -1,0 +1,126 @@
+.navbar {
+  background: #000;
+}
+.navbar .nav-item {
+  padding-left: 1em;
+}
+.navbar .nav-item .nav-link {
+  text-transform: uppercase;
+}
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-img1 {
+  background: url("../img/image1.jpeg");
+  background-size: cover;
+}
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-img2 {
+  background: url("../img/image2.jpeg");
+  background-size: cover;
+}
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-img3 {
+  background: url("../img/image3.jpeg");
+  background-size: cover;
+}
+
+#home-icon .fas {
+  font-size: 50px;
+}
+
+#are-you-ready {
+  position: relative;
+  background-image: url("../img/bg1.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px;
+}
+#are-you-ready .dark-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#video {
+  position: relative;
+  background-image: url("../img/people.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px;
+}
+#video .dark-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+#video .dark-overlay .fas {
+  font-size: 50px;
+  color: #ff0000;
+}
+
+#photo-gallery img {
+  min-height: 250px;
+}
+
+#header {
+  background: url("../img/image6.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 300px;
+}
+
+#copy {
+  background: #000;
+}
+
+#what-we-do {
+  min-height: 350px;
+}
+#what-we-do img {
+  height: 300px;
+  width: 300px;
+}
+
+#icon-box .fas, #icon-box .fab {
+  font-size: 50px;
+}
+
+#service {
+  background: url("../img/pro7.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 300px;
+}
+
+@media (max-width: 480px) {
+  .carousel h1 {
+    font-size: 2.5rem;
+  }
+
+  #are-you-ready {
+    min-height: 350px;
+  }
+}
+
+/*# sourceMappingURL=syle.css.map */

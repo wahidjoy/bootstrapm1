@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+
+$icon-size:50px;
+$dark:rgba(0,0,0,0.7);
+
+.navbar{
+    background:#000;
+
+    .nav-item{
+        padding-left: 1em;
+        .nav-link{
+            text-transform: uppercase;
+        }
+    }
+    .navbar-brand{
+        font-family: 'Great Vibes';
+        font-size: 36px;
+    }
+}
+//Carousel
+
+.carousel-item{
+    height: 450px;
+}
+.carousel-img1{
+    background: url("../img/image1.jpeg");
+    background-size: cover;
+}
+.carousel-item{
+    height: 450px;
+}
+.carousel-img2{
+    background: url("../img/image2.jpeg");
+    background-size: cover;
+}
+.carousel-item{
+    height: 450px;
+}
+.carousel-img3{
+    background: url("../img/image3.jpeg");
+    background-size: cover;
+}
+
+//home-icon
+#home-icon{
+    .fas{
+        font-size: $icon-size;
+    }
+}
+#are-you-ready{
+    position: relative;
+    background-image: url("../img/bg1.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 250px;
+
+    .dark-overlay{
+        background: $dark;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+
+    }
+}
+
+#video{
+    position: relative;
+    background-image: url("../img/people.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 250px;
+
+    .dark-overlay{
+        background: $dark;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        .fas{
+            font-size: $icon-size;
+            color: #ff0000;
+        }
+
+    }
+}
+
+#photo-gallery{
+    img{
+        min-height: 250px;
+    }
+}
+#header{
+    background: url("../img/image6.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 300px;
+}
+#copy{
+    background: #000;
+}
+#what-we-do{
+    min-height: 350px;
+    img{
+        height: 300px;
+        width: 300px;
+    }
+}
+#icon-box{
+    .fas,.fab{
+        font-size: $icon-size;
+    }
+}
+#service{
+    background: url("../img/pro7.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 300px;
+}
+#blog{
+    background: url("../img/img9.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 300px;
+ 
+}
+#contact-main{
+    background: url("../img/img8.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    color: #fff;
+}
+
+//PRACTICE
+
+
+//CAROUSEL
+@media(max-width:480px){
+    .carousel{
+        h1{
+            font-size: 2.5rem;
+        }
+    }
+    #are-you-ready{
+        min-height: 350px;
+    }
+}
